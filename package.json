@@ -1,0 +1,14 @@
+{
+  "name": "login-app",
+  "version": "1.0.0",
+  "description": "A simple login web app with single session per account",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "dotenv": "^16.0.3"
+  }
+}
